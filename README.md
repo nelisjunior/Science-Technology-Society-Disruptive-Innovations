@@ -1,32 +1,53 @@
-# Science, Technology, Society, and Disruptive Innovations
+# Arautos da Inovação
 
-Desenvolvimento de um website responsivo e dinâmico com a temática "Ciência, Tecnologia, Sociedade e Inovações Disruptivas".
-
-## Características do Site
-
-- **Design Moderno**: Minimalista e futurista, com uma paleta de cores que remete à inovação e tecnologia.
-- **Interface Intuitiva**: Tipografia legível e elementos gráficos que reforçam a temática.
-- **Publicações Regulares**: Suporte para artigos, notícias e eventos.
-- **Sistema de Categorias**: Inclui categorias como Ciência, Tecnologia, Sociedade e Inovações.
-- **Navegação e Layout Interno**: Menus laterais fixos e diversos painéis para exibição de conteúdo.
-- **Funcionalidades Extras**: Integração com redes sociais, otimização para SEO e carregamento rápido.
-
-## Estrutura do Projeto
-
-- `src/html`: Arquivos HTML do projeto.
-- `src/css`: Arquivos CSS do projeto.
-- `src/js`: Arquivos JavaScript do projeto.
-- `src/assets`: Recursos estáticos como imagens e fontes.
+Este é o repositório do site dos Arautos da Inovação, uma equipe dedicada a promover a inovação tecnológica e educacional.
 
 ## Tecnologias Utilizadas
+- **Next.js**: Framework React para renderização estática e no servidor.
+- **Tailwind CSS**: Framework CSS utilitário para estilização rápida e responsiva.
+- **Framer Motion**: Biblioteca para animações suaves em React.
+- **NextAuth.js**: Biblioteca para autenticação em Next.js.
+- **Hygraph ou Strapi**: CMS headless para gerenciamento de conteúdo.
 
-- HTML, CSS e JavaScript
-- Frameworks como Bootstrap
+## Estrutura de Páginas
+1. **Home**: Página inicial com destaques de eventos e artigos recentes.
+2. **Portfólio**: Grid de projetos filtrados por categoria.
+3. **Blog**: Artigos sobre TRIZTOMING, inovação governamental e negócios tecnológicos.
+4. **Referências**: Galeria de mentores e suas contribuições.
+5. **Contato**: Formulário para colaborações e inscrição na newsletter.
+
+## Como Rodar Localmente
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/arautos-da-inovacao.git
+   cd arautos-da-inovacao
+    ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Rode o servidor de desenvolvimento:
+   ```bash
+    npm run dev
+    ```
+4. Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 
 ## Como Contribuir
-
-1. Faça um fork do projeto.
-2. Crie uma branch para sua feature (`git checkout -b feature/sua-feature`).
-3. Commit suas mudanças (`git commit -am 'Adiciona nova feature'`).
-4. Faça push para a branch (`git push origin feature/sua-feature`).
-5. Crie um novo Pull Request.
+1. Faça um fork do repositório.
+2. Crie uma branch para a sua feature:
+   ```bash
+   git checkout -b minha-feature
+   ```
+3. Faça commit das suas mudanças:
+   ```bash
+    git commit -m 'Minha nova feature'
+    ```
+4. Envie para o seu fork:
+   ```bash
+   git push origin minha-feature
+   ```
+5. Abra um pull request para a branch `main` do repositório original.
+6. Depois que aprovado, o seu pull request será mergeado e a sua feature estará no projeto.
+7. Lembre-se de deletar a sua branch depois que a sua feature for mergeada.
+8. E não se esqueça de adicionar o seu nome na lista de contribuidores no arquivo `CONTRIBUTORS.md`.
+9. Obrigado por contribuir! 🚀
